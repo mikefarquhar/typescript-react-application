@@ -1,6 +1,6 @@
-# TypeScript Application
+# TypeScript React Application
 
-This is a template for building TypeScript Applications.
+This is a template for building TypeScript React Applications.
 
 Provided commands
 
