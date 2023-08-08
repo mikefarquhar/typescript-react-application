@@ -2,20 +2,20 @@
   "Test Description": {
     "scope": "javascript,typescript,typescriptreact",
     "prefix": ["desc", "describe"],
-    "body": ["describe(\"${1:description}\", () => {", "\t$0", "});"],
+    "body": ["describe(\"$1\", () => {", "\t$0", "});"],
     "description": "Test description"
   },
   "Test Case": {
     "scope": "javascript,typescript,typescriptreact",
     "prefix": "test",
-    "body": ["test(\"it should ${1:description}\", () => {", "\t$0", "});"],
+    "body": ["test(\"it should $1\", () => {", "\t$0", "});"],
     "description": "Test case"
   },
   "Component": {
     "scope": "typescriptreact",
     "prefix": ["comp", "component"],
     "body": [
-      "function ${1:ComponentName}(${2:props}): JSX.Element {",
+      "function ${1:MyComponent}(${3:props}: ${2:PropsType}): ${4:JSX.Element} {",
       "\t$0",
       "}"
     ],
