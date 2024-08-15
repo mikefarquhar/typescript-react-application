@@ -14,6 +14,9 @@ npm run build
 # Run the built application from the dist folder over localhost
 npm run preview
 
+# Clean up generated files
+npm run clean
+
 # Run the tests once and generate a code coverage report
 npm run test
 
@@ -23,6 +26,12 @@ npm run test:watch
 # Check the code for linting errors
 npm run lint
 
+# Find and fix linting errors
+npm run lint:fix
+
 # Check the code for formatting errors
 npm run format
+
+# Find and fix formatting errors
+npm run format:fix
 ```
