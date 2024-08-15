@@ -9,6 +9,7 @@
     "plugin:@typescript-eslint/recommended-type-checked",
     "plugin:react/recommended",
     "plugin:react/jsx-runtime",
+    "plugin:jsx-a11y/recommended",
     "prettier"
   ],
   "parser": "@typescript-eslint/parser",
@@ -20,7 +21,7 @@
       "jsx": true
     }
   },
-  "plugins": ["@typescript-eslint", "react-refresh"],
+  "plugins": ["@typescript-eslint", "react-refresh", "jsx-a11y"],
   "rules": {
     "react-refresh/only-export-components": "warn"
   },
